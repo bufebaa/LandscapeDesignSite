@@ -288,5 +288,10 @@
         margin-bottom: 10px;
     }
 
+    .send-button
+    {
+        margin-left: 0;
+    }
+
 }
 

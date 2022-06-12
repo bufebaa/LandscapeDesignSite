@@ -188,7 +188,10 @@
     width: 180px;
 }
 
-
+.things-info
+{
+    margin-bottom: 10px;
+}
 
 .grid-for-things
 {
@@ -490,6 +493,13 @@
         padding-bottom: 20px;
     }
 
+    .send-button
+    {
+
+        margin-left: 0;
+    }
+
+
 }
 
 @media (max-width:480.98px)
@@ -522,5 +532,46 @@
     
     .card2{
         max-width: 90%;
+    }
+}
+
+@media (max-width:840.98px)
+{
+    .wrapper-for-things
+    {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .thing-subtitle
+    {
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .grid-for-things
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .grid-for-things>* {
+        flex: 1 1 250px;
+    }
+
+    .things-info
+    {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+        .wrapper-for-things
+    {
+        padding-bottom: 40px;
+
     }
 }
