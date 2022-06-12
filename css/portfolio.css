@@ -1,0 +1,145 @@
+/*background for that page*/
+.background-wrapper
+{
+    background: url(../img/jpg/portfolioBack.jpg) no-repeat center;
+    background-size: cover;
+    padding: 231px 0px 0px 0px ;
+}
+
+/*intro*/
+.intro
+{
+    background: rgba(255, 255, 255, 0.6);
+    margin-left: auto;
+    padding-top: 100px;
+    max-width: 1700px;
+    padding-left: 8%;
+    padding-bottom: 100px;
+    margin-bottom: 90px;
+}
+
+.content_wrapper_info
+{
+    max-width: 1200px;
+    margin-right: auto;
+    padding: 0px 15px;
+
+}
+
+.text
+{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    flex-wrap: wrap;
+
+}
+
+.main-title
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    color: black;
+    margin-right: 2%;
+}
+
+.line {
+    border-left: 2px solid black;
+    height: 137px;
+    width: 2px;
+    margin-right: 2%;
+}
+
+.subtitle
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    color: black;
+    width: 660px
+}
+
+/*cards*/
+.cards
+{
+    max-width: 1432px;
+    max-height: 1294px;
+    background: #1F3623;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.content-wrapper
+{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+.item_title
+{
+    background-color: white;
+    color: black;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    height: 4em;  /* не в % */
+    line-height: 4em;
+    padding-left: 10px;
+}
+
+.cads-items
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.card-item
+{
+    margin-bottom: 100px;
+}
+
+/*button-div*/
+
+.button-div
+{
+    background-color: white;
+}
+
+.back_wrapper
+{
+    max-width: 1432px;
+    max-height: 1294px;
+    background: #1F3623;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.text-us-button
+{
+
+    width: 332px;
+    height: 55px;
+
+    background: rgba(255, 255, 255, 0.35);
+    border: 6px solid #FFFFFF;
+    border-radius: 43px;
+    margin: 0 auto;
+
+}
+
+.separator
+{
+    background-color: white;
+    height: 50px;
+}
